@@ -1,0 +1,44 @@
+<head>
+    <style type="text/css">
+      body { margin:0; font-size:0; }
+      
+    </style>
+</head>
+
+
+<img src="comparison/city/city_v.png" width=50% height=50%>
+<img src="comparison/city/city_k.png" width=50% height=50%>
+<img src="comparison/city/city_s.png" width=50% height=50%>
+<img src="comparison/city/city_pt.png" width=50% height=50%>
+
+<img src="comparison/lapis/lapis_v.png" width=50% height=50%>
+<img src="comparison/lapis/lapis_k.png" width=50% height=50%>
+<img src="comparison/lapis/lapis_s.png" width=50% height=50%>
+<img src="comparison/lapis/lapis_pt.png" width=50% height=50%>
+
+
+<img src="comparison/ice/ice_v.png" width=50% height=50%>
+<img src="comparison/ice/ice_k.png" width=50% height=50%>
+<img src="comparison/ice/ice_s.png" width=50% height=50%>
+<img src="comparison/ice/ice_pt.png" width=50% height=50%>
+
+
+<img src="comparison/solea/solea_v.png" width=50% height=50%>
+<img src="comparison/solea/solea_k.png" width=50% height=50%>
+<img src="comparison/solea/solea_s.png" width=50% height=50%>
+<img src="comparison/solea/solea_pt.png" width=50% height=50%>
+
+<img src="comparison/wall/wall_v.png" width=50% height=50%>
+<img src="comparison/wall/wall_k.png" width=50% height=50%>
+<img src="comparison/wall/wall_s.png" width=50% height=50%>
+<img src="comparison/wall/wall_pt.png" width=50% height=50%>
+
+<img src="comparison/water/water_v.png" width=50% height=50%>
+<img src="comparison/water/water_k.png" width=50% height=50%>
+<img src="comparison/water/water_s.png" width=50% height=50%>
+<img src="comparison/water/water_pt.png" width=50% height=50%>
+
+<img src="comparison/cactus/cactus_v.png" width=50% height=50%>
+<img src="comparison/cactus/cactus_k.png" width=50% height=50%>
+<img src="comparison/cactus/cactus_s.png" width=50% height=50%>
+<img src="comparison/cactus/cactus_pt.png" width=50% height=50%>
