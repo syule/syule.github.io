@@ -1,22 +1,40 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pannellum</title>
-  <link type="text/css" rel="Stylesheet" href="../css/pannellum.css"/>
-  <link type="text/css" rel="Stylesheet" href="standalone.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <style>
+    #panorama {
+        width: 600px;
+        height: 400px;
+    }
+    </style>
 </head>
 <body>
-<div id="container">
-  <noscript>
-    <div class="pnlm-info-box">
-      <p>Javascript is required to view this panorama.<br>(It could be worse; you could need a plugin.)</p>
-    </div>
-  </noscript>
-</div>
-<script type="text/javascript" src="../js/libpannellum.js"></script>
-<script type="text/javascript" src="../js/pannellum.js"></script>
-<script type="text/javascript" src="standalone.js"></script>
+
+<div id="panorama"></div>
+<script>
+pannellum.viewer('panorama', {
+    "hfov": 30.0,
+    "minHfov": 3.0,
+    "multiResMinHfov": true,
+    "type": "multires",
+    "multiRes": {
+        "basePath": "./test/output",
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 7,
+        "cubeResolution": 17600
+    },
+    "autoLoad": true
+}
+);
+</script>
+
 </body>
 </html>
